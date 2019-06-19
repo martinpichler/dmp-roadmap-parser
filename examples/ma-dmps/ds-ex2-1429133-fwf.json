@@ -1,0 +1,221 @@
+{
+  "dmp": {
+    "title": "Comparison of divorce rate between Austria and the EU",
+    "description": "Abstract::Exercise for the lecture Data Stewardship",
+    "created": "2019-06-19 19:10:47.592181",
+    "modified": "2019-06-19 19:17:34.444985",
+    "dmp_id": {
+      "dmp_id": "ds-ex2-1429133-fwf",
+      "dmp_id_type": "HTTP-DOI"
+    },
+    "contact": {
+      "name": "Martin Pichler",
+      "mail": "pichler.martin@outlook.at",
+      "contact_id": {
+        "contact_id": "https://orcid.org/0000-0001-5305-9063",
+        "contact_id_type": "HTTP-ORCID"
+      }
+    },
+    "project": {},
+    "dataset": [
+      {
+        "title": "Ehescheidungen (Statistik Austria)",
+        "description": "Divorce statistic of austria",
+        "type": "Dataset",
+        "distribution": [
+          {
+            "title": "Origin",
+            "format": "csv",
+            "byte_size": 1024,
+            "access_url": "https://www.data.gv.at/katalog/dataset/2d8ad82c-4730-3354-9971-9406f2ccf72c"
+          },
+          {
+            "title": "Project",
+            "format": "csv",
+            "byte_size": 1024,
+            "host": {
+              "title": "github.com",
+              "supports_versioning": "yes"
+            },
+            "access_url": "https://github.com/martinpichler/data_stewardship_ex1)"
+          }
+        ],
+        "metadata": [
+          {
+            "description": "Dataset Metadata",
+            "language": "en",
+            "metadata_id": {
+              "metadata_id": "https://www.data.gv.at/katalog/dataset/2d8ad82c-4730-3354-9971-9406f2ccf72c",
+              "metadata_id_type": "HTTP-URI"
+            }
+          },
+          {
+            "description": "Dataset Metadata",
+            "language": "en",
+            "metadata_id": {
+              "metadata_id": "divorce_analysis.ipynb",
+              "metadata_id_type": "custom"
+            }
+          }
+        ],
+        "technical_resource": [],
+        "data_quality_assurance": "The project only uses already available data and no new data will be generated in the future. The used data was checked for completeness and correctness.",
+        "dataset_id": {
+          "dataset_id": "https://www.data.gv.at/katalog/dataset/2d8ad82c-4730-3354-9971-9406f2ccf72c",
+          "dataset_id_type": "HTTP-URI"
+        },
+        "security_and_privacy": [
+          {
+            "title": "Data Security",
+            "text": "No legal aspects to mention"
+          }
+        ]
+      },
+      {
+        "title": "Divorces by duration of marriage (Eurostat)",
+        "description": "Divorce statistic of the EU",
+        "type": "Dataset",
+        "distribution": [
+          {
+            "title": "Origin",
+            "format": "tsv",
+            "byte_size": 304128,
+            "access_url": "https://ec.europa.eu/eurostat/web/products-datasets/-/demo_ndivdur"
+          },
+          {
+            "title": "Project",
+            "format": "tsv",
+            "byte_size": 304128,
+            "host": {
+              "title": "github.com",
+              "supports_versioning": "yes"
+            },
+            "access_url": "https://github.com/martinpichler/data_stewardship_ex1)"
+          }
+        ],
+        "metadata": [
+          {
+            "description": "Dataset Metadata",
+            "language": "en",
+            "metadata_id": {
+              "metadata_id": "http://data.europa.eu/euodp/en/data/dataset/brjas74zddipeu7mnkhmia",
+              "metadata_id_type": "HTTP-URI"
+            }
+          },
+          {
+            "description": "Dataset Metadata",
+            "language": "en",
+            "metadata_id": {
+              "metadata_id": "divorce_analysis.ipynb",
+              "metadata_id_type": "custom"
+            }
+          }
+        ],
+        "technical_resource": [],
+        "data_quality_assurance": "The project only uses already available data and no new data will be generated in the future. The used data was checked for completeness and correctness.",
+        "dataset_id": {
+          "dataset_id": "https://ec.europa.eu/eurostat/web/products-datasets/-/demo_ndivdur",
+          "dataset_id_type": "HTTP-URI"
+        },
+        "security_and_privacy": [
+          {
+            "title": "Data Security",
+            "text": "No legal aspects to mention"
+          }
+        ]
+      },
+      {
+        "title": "scatter",
+        "description": "Scatterplot",
+        "type": "Image",
+        "distribution": [
+          {
+            "title": "Project",
+            "format": "png",
+            "byte_size": 15360,
+            "host": {
+              "title": "github.com",
+              "supports_versioning": "yes"
+            },
+            "access_url": "https://github.com/martinpichler/data_stewardship_ex1)"
+          }
+        ],
+        "metadata": [],
+        "technical_resource": [],
+        "data_quality_assurance": "The project only uses already available data and no new data will be generated in the future. The used data was checked for completeness and correctness.",
+        "dataset_id": {
+          "dataset_id": "scatter",
+          "dataset_id_type": "custom"
+        },
+        "security_and_privacy": [
+          {
+            "title": "Data Security",
+            "text": "No legal aspects to mention"
+          }
+        ]
+      },
+      {
+        "title": "time_change",
+        "description": "Time Change Plot",
+        "type": "Image",
+        "distribution": [
+          {
+            "title": "Project",
+            "format": "png",
+            "byte_size": 30720,
+            "host": {
+              "title": "github.com",
+              "supports_versioning": "yes"
+            },
+            "access_url": "https://github.com/martinpichler/data_stewardship_ex1)"
+          }
+        ],
+        "metadata": [],
+        "technical_resource": [],
+        "data_quality_assurance": "The project only uses already available data and no new data will be generated in the future. The used data was checked for completeness and correctness.",
+        "dataset_id": {
+          "dataset_id": "time_change",
+          "dataset_id_type": "custom"
+        },
+        "security_and_privacy": [
+          {
+            "title": "Data Security",
+            "text": "No legal aspects to mention"
+          }
+        ]
+      },
+      {
+        "title": "time_corr",
+        "description": "Time Correlation Plot",
+        "type": "Image",
+        "distribution": [
+          {
+            "title": "Project",
+            "format": "png",
+            "byte_size": 15360,
+            "host": {
+              "title": "github.com",
+              "supports_versioning": "yes"
+            },
+            "access_url": "https://github.com/martinpichler/data_stewardship_ex1)"
+          }
+        ],
+        "metadata": [],
+        "technical_resource": [],
+        "data_quality_assurance": "The project only uses already available data and no new data will be generated in the future. The used data was checked for completeness and correctness.",
+        "dataset_id": {
+          "dataset_id": "time_corr",
+          "dataset_id_type": "custom"
+        },
+        "security_and_privacy": [
+          {
+            "title": "Data Security",
+            "text": "No legal aspects to mention"
+          }
+        ]
+      }
+    ],
+    "ethical_issues_description": "No ethical issues exist",
+    "ethical_issues_exist": "no"
+  }
+}

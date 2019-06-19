@@ -1,0 +1,499 @@
+{
+  "dmp": {
+    "title": "Comparison of divorce rate between Austria and the EU",
+    "description": "Abstract::Exercise for the lecture Data Stewardship;Explain the relation to the objectives of the project::The input data contains the annual number of divorces for Austria and the EU.\r\nThe produced data is a visual analysis of the correlation between the Austrian and the EU28 divorce rate.&nbsp;;Outline the data utility: to whom will it be useful::Storing the data makes it easy for other people to rerun and validate the correctness of the experiment. It also avoids the possible loss of the original data through the third-party providers and guarantees access to the data.;Outline the approach towards search keyword::Not implemented.",
+    "created": "2019-06-18 21:01:02.401230",
+    "modified": "2019-06-19 18:52:31.907244",
+    "dmp_id": {
+      "dmp_id": "ds-ex2-1429133",
+      "dmp_id_type": "HTTP-DOI"
+    },
+    "contact": {
+      "name": "Martin Pichler",
+      "mail": "pichler.martin@outlook.at",
+      "contact_id": {
+        "contact_id": "https://orcid.org/0000-0001-5305-9063",
+        "contact_id_type": "HTTP-ORCID"
+      }
+    },
+    "project": {
+      "description": "State the purpose of the data collection/generation::No new data was collected for this project. Only data from the Austrian and European open data portals has been used. The generated data are images that are used to draw conclusions between the divorce rate of Austria and the EU28.&nbsp;;Refer to other national/funder/sectorial/departmental procedures for data management that you are using (if any)::No additional procedures are used."
+    },
+    "dataset": [
+      {
+        "title": "Ehescheidungen (Statistik Austria)",
+        "description": "Divorce statistic of austria",
+        "type": "Dataset",
+        "distribution": [
+          {
+            "title": "Origin",
+            "format": "csv",
+            "access_url": "https://www.data.gv.at/katalog/dataset/2d8ad82c-4730-3354-9971-9406f2ccf72c",
+            "byte_size": 1024,
+            "data_access": "open"
+          },
+          {
+            "title": "Project",
+            "format": "csv",
+            "byte_size": 1024,
+            "host": {
+              "title": "github.com",
+              "supports_versioning": "yes",
+              "license": {
+                "license_ref": "https://opensource.org/licenses/MIT",
+                "start_date": "2019-06-18 21:01:02.401230"
+              }
+            },
+            "data_access": "open",
+            "access_url": "https://github.com/martinpichler/data_stewardship_ex1"
+          }
+        ],
+        "metadata": [
+          {
+            "description": "Dataset Metadata",
+            "language": "en",
+            "metadata_id": {
+              "metadata_id": "https://www.data.gv.at/katalog/dataset/2d8ad82c-4730-3354-9971-9406f2ccf72c",
+              "metadata_id_type": "HTTP-URI"
+            }
+          },
+          {
+            "description": "Dataset Metadata",
+            "language": "en",
+            "metadata_id": {
+              "metadata_id": "divorce_analysis.ipynb",
+              "metadata_id_type": "custom"
+            }
+          },
+          {
+            "description": "Naming Conventions",
+            "language": "en",
+            "metadata_id": {
+              "metadata_id": "https://visualgit.readthedocs.io/en/latest/pages/naming_convention.html",
+              "metadata_id_type": "HTTP-URI"
+            }
+          },
+          {
+            "description": "No restrictions, access is public and open to everyone.",
+            "metadata_id": {
+              "metadata_id": "restrictions",
+              "metadata_id_type": "custom"
+            }
+          },
+          {
+            "description": "No restrictions, data and source code can be used by anyone.",
+            "metadata_id": {
+              "metadata_id": "third_party_usability",
+              "metadata_id_type": "custom"
+            }
+          }
+        ],
+        "technical_resource": [
+          {
+            "description": "The data can be downloaded either from Github directly (single files or zip) or can be downloaded with git.\r\nThe input data files are stored as .csv and .tsv files and need no additional software.&nbsp;\r\nThe produced data are .png images and an image viewer is needed to open them.\r\nThe source code of the experiment is contained within a jupyter notebook. A working python installation is needed to run it. The git repository contains a readme.md that describes how to run it and which dependencies the notebook has. Alternatively, docker can be used to run the experiment (also described in the readme.md).",
+            "technical_resource_id": {
+              "technical_resource_id": "software_tools",
+              "technical_resource_id_type": "custom"
+            }
+          },
+          {
+            "description": "All the data used and produced is based on non-restricted or proprietary data formats (e.g. .csv, .tsv, png, python, jupyter, git).\r\nThere is no domain-specific vocabulary to take in consideration.",
+            "technical_resource_id": {
+              "technical_resource_id": "interoperability_standards",
+              "technical_resource_id_type": "custom"
+            }
+          },
+          {
+            "description": "Standard vocabulary is used, no mapping required.",
+            "technical_resource_id": {
+              "technical_resource_id": "vocabulary_standards",
+              "technical_resource_id_type": "custom"
+            }
+          }
+        ],
+        "keyword": "re-used",
+        "dataset_id": {
+          "dataset_id": "https://www.data.gv.at/katalog/dataset/2d8ad82c-4730-3354-9971-9406f2ccf72c",
+          "dataset_id_type": "HTTP-URI"
+        },
+        "data_quality_assurance": "The project only uses already available data and no new data will be generated in the future. The used data was checked for completeness and correctness.",
+        "preservation_statement": "Since the data is stored in a public Github repository, no additional cost has to be covered.",
+        "security_and_privacy": [
+          {
+            "title": "Data Security",
+            "text": "Data is stored in a git repository on Github and can only be modified by the owner or an administrator. If data is lost locally, the original data can be downloaded from the Github repository. No sensitive data is stored and thus the repository does not need to be addressed."
+          }
+        ]
+      },
+      {
+        "title": "Divorces by duration of marriage (Eurostat)",
+        "description": "Divorce statistic of the EU",
+        "type": "Dataset",
+        "distribution": [
+          {
+            "title": "Origin",
+            "format": "tsv",
+            "access_url": "https://ec.europa.eu/eurostat/web/products-datasets/-/demo_ndivdur",
+            "byte_size": 304128,
+            "data_access": "open"
+          },
+          {
+            "title": "Project",
+            "format": "tsv",
+            "byte_size": 304128,
+            "host": {
+              "title": "github.com",
+              "supports_versioning": "yes",
+              "license": {
+                "license_ref": "https://opensource.org/licenses/MIT",
+                "start_date": "2019-06-18 21:01:02.401230"
+              }
+            },
+            "data_access": "open",
+            "access_url": "https://github.com/martinpichler/data_stewardship_ex1"
+          }
+        ],
+        "metadata": [
+          {
+            "description": "Dataset Metadata",
+            "language": "en",
+            "metadata_id": {
+              "metadata_id": "http://data.europa.eu/euodp/en/data/dataset/brjas74zddipeu7mnkhmia",
+              "metadata_id_type": "HTTP-URI"
+            }
+          },
+          {
+            "description": "Dataset Metadata",
+            "language": "en",
+            "metadata_id": {
+              "metadata_id": "divorce_analysis.ipynb",
+              "metadata_id_type": "custom"
+            }
+          },
+          {
+            "description": "Naming Conventions",
+            "language": "en",
+            "metadata_id": {
+              "metadata_id": "https://visualgit.readthedocs.io/en/latest/pages/naming_convention.html",
+              "metadata_id_type": "HTTP-URI"
+            }
+          },
+          {
+            "description": "No restrictions, access is public and open to everyone.",
+            "metadata_id": {
+              "metadata_id": "restrictions",
+              "metadata_id_type": "custom"
+            }
+          },
+          {
+            "description": "No restrictions, data and source code can be used by anyone.",
+            "metadata_id": {
+              "metadata_id": "third_party_usability",
+              "metadata_id_type": "custom"
+            }
+          }
+        ],
+        "technical_resource": [
+          {
+            "description": "The data can be downloaded either from Github directly (single files or zip) or can be downloaded with git.\r\nThe input data files are stored as .csv and .tsv files and need no additional software.&nbsp;\r\nThe produced data are .png images and an image viewer is needed to open them.\r\nThe source code of the experiment is contained within a jupyter notebook. A working python installation is needed to run it. The git repository contains a readme.md that describes how to run it and which dependencies the notebook has. Alternatively, docker can be used to run the experiment (also described in the readme.md).",
+            "technical_resource_id": {
+              "technical_resource_id": "software_tools",
+              "technical_resource_id_type": "custom"
+            }
+          },
+          {
+            "description": "All the data used and produced is based on non-restricted or proprietary data formats (e.g. .csv, .tsv, png, python, jupyter, git).\r\nThere is no domain-specific vocabulary to take in consideration.",
+            "technical_resource_id": {
+              "technical_resource_id": "interoperability_standards",
+              "technical_resource_id_type": "custom"
+            }
+          },
+          {
+            "description": "Standard vocabulary is used, no mapping required.",
+            "technical_resource_id": {
+              "technical_resource_id": "vocabulary_standards",
+              "technical_resource_id_type": "custom"
+            }
+          }
+        ],
+        "keyword": "re-used",
+        "dataset_id": {
+          "dataset_id": "https://ec.europa.eu/eurostat/web/products-datasets/-/demo_ndivdur",
+          "dataset_id_type": "HTTP-URI"
+        },
+        "data_quality_assurance": "The project only uses already available data and no new data will be generated in the future. The used data was checked for completeness and correctness.",
+        "preservation_statement": "Since the data is stored in a public Github repository, no additional cost has to be covered.",
+        "security_and_privacy": [
+          {
+            "title": "Data Security",
+            "text": "Data is stored in a git repository on Github and can only be modified by the owner or an administrator. If data is lost locally, the original data can be downloaded from the Github repository. No sensitive data is stored and thus the repository does not need to be addressed."
+          }
+        ]
+      },
+      {
+        "title": "scatter",
+        "description": "Scatterplot",
+        "type": "Image",
+        "distribution": [
+          {
+            "title": "Project",
+            "format": "png",
+            "byte_size": 15360,
+            "host": {
+              "title": "github.com",
+              "supports_versioning": "yes",
+              "license": {
+                "license_ref": "https://opensource.org/licenses/MIT",
+                "start_date": "2019-06-18 21:01:02.401230"
+              }
+            },
+            "data_access": "open",
+            "access_url": "https://github.com/martinpichler/data_stewardship_ex1"
+          }
+        ],
+        "metadata": [
+          {
+            "description": "Naming Conventions",
+            "language": "en",
+            "metadata_id": {
+              "metadata_id": "https://visualgit.readthedocs.io/en/latest/pages/naming_convention.html",
+              "metadata_id_type": "HTTP-URI"
+            }
+          },
+          {
+            "description": "No restrictions, access is public and open to everyone.",
+            "metadata_id": {
+              "metadata_id": "restrictions",
+              "metadata_id_type": "custom"
+            }
+          },
+          {
+            "description": "No restrictions, data and source code can be used by anyone.",
+            "metadata_id": {
+              "metadata_id": "third_party_usability",
+              "metadata_id_type": "custom"
+            }
+          }
+        ],
+        "technical_resource": [
+          {
+            "description": "The data can be downloaded either from Github directly (single files or zip) or can be downloaded with git.\r\nThe input data files are stored as .csv and .tsv files and need no additional software.&nbsp;\r\nThe produced data are .png images and an image viewer is needed to open them.\r\nThe source code of the experiment is contained within a jupyter notebook. A working python installation is needed to run it. The git repository contains a readme.md that describes how to run it and which dependencies the notebook has. Alternatively, docker can be used to run the experiment (also described in the readme.md).",
+            "technical_resource_id": {
+              "technical_resource_id": "software_tools",
+              "technical_resource_id_type": "custom"
+            }
+          },
+          {
+            "description": "All the data used and produced is based on non-restricted or proprietary data formats (e.g. .csv, .tsv, png, python, jupyter, git).\r\nThere is no domain-specific vocabulary to take in consideration.",
+            "technical_resource_id": {
+              "technical_resource_id": "interoperability_standards",
+              "technical_resource_id_type": "custom"
+            }
+          },
+          {
+            "description": "Standard vocabulary is used, no mapping required.",
+            "technical_resource_id": {
+              "technical_resource_id": "vocabulary_standards",
+              "technical_resource_id_type": "custom"
+            }
+          }
+        ],
+        "keyword": "generated",
+        "dataset_id": {
+          "dataset_id": "scatter",
+          "dataset_id_type": "custom"
+        },
+        "data_quality_assurance": "The project only uses already available data and no new data will be generated in the future. The used data was checked for completeness and correctness.",
+        "preservation_statement": "Since the data is stored in a public Github repository, no additional cost has to be covered.",
+        "security_and_privacy": [
+          {
+            "title": "Data Security",
+            "text": "Data is stored in a git repository on Github and can only be modified by the owner or an administrator. If data is lost locally, the original data can be downloaded from the Github repository. No sensitive data is stored and thus the repository does not need to be addressed."
+          }
+        ]
+      },
+      {
+        "title": "time_change",
+        "description": "Time Change Plot",
+        "type": "Image",
+        "distribution": [
+          {
+            "title": "Project",
+            "format": "png",
+            "byte_size": 30720,
+            "host": {
+              "title": "github.com",
+              "supports_versioning": "yes",
+              "license": {
+                "license_ref": "https://opensource.org/licenses/MIT",
+                "start_date": "2019-06-18 21:01:02.401230"
+              }
+            },
+            "data_access": "open",
+            "access_url": "https://github.com/martinpichler/data_stewardship_ex1"
+          }
+        ],
+        "metadata": [
+          {
+            "description": "Naming Conventions",
+            "language": "en",
+            "metadata_id": {
+              "metadata_id": "https://visualgit.readthedocs.io/en/latest/pages/naming_convention.html",
+              "metadata_id_type": "HTTP-URI"
+            }
+          },
+          {
+            "description": "No restrictions, access is public and open to everyone.",
+            "metadata_id": {
+              "metadata_id": "restrictions",
+              "metadata_id_type": "custom"
+            }
+          },
+          {
+            "description": "No restrictions, data and source code can be used by anyone.",
+            "metadata_id": {
+              "metadata_id": "third_party_usability",
+              "metadata_id_type": "custom"
+            }
+          }
+        ],
+        "technical_resource": [
+          {
+            "description": "The data can be downloaded either from Github directly (single files or zip) or can be downloaded with git.\r\nThe input data files are stored as .csv and .tsv files and need no additional software.&nbsp;\r\nThe produced data are .png images and an image viewer is needed to open them.\r\nThe source code of the experiment is contained within a jupyter notebook. A working python installation is needed to run it. The git repository contains a readme.md that describes how to run it and which dependencies the notebook has. Alternatively, docker can be used to run the experiment (also described in the readme.md).",
+            "technical_resource_id": {
+              "technical_resource_id": "software_tools",
+              "technical_resource_id_type": "custom"
+            }
+          },
+          {
+            "description": "All the data used and produced is based on non-restricted or proprietary data formats (e.g. .csv, .tsv, png, python, jupyter, git).\r\nThere is no domain-specific vocabulary to take in consideration.",
+            "technical_resource_id": {
+              "technical_resource_id": "interoperability_standards",
+              "technical_resource_id_type": "custom"
+            }
+          },
+          {
+            "description": "Standard vocabulary is used, no mapping required.",
+            "technical_resource_id": {
+              "technical_resource_id": "vocabulary_standards",
+              "technical_resource_id_type": "custom"
+            }
+          }
+        ],
+        "keyword": "generated",
+        "dataset_id": {
+          "dataset_id": "time_change",
+          "dataset_id_type": "custom"
+        },
+        "data_quality_assurance": "The project only uses already available data and no new data will be generated in the future. The used data was checked for completeness and correctness.",
+        "preservation_statement": "Since the data is stored in a public Github repository, no additional cost has to be covered.",
+        "security_and_privacy": [
+          {
+            "title": "Data Security",
+            "text": "Data is stored in a git repository on Github and can only be modified by the owner or an administrator. If data is lost locally, the original data can be downloaded from the Github repository. No sensitive data is stored and thus the repository does not need to be addressed."
+          }
+        ]
+      },
+      {
+        "title": "time_corr",
+        "description": "Time Correlation Plot",
+        "type": "Image",
+        "distribution": [
+          {
+            "title": "Project",
+            "format": "png",
+            "byte_size": 15360,
+            "host": {
+              "title": "github.com",
+              "supports_versioning": "yes",
+              "license": {
+                "license_ref": "https://opensource.org/licenses/MIT",
+                "start_date": "2019-06-18 21:01:02.401230"
+              }
+            },
+            "data_access": "open",
+            "access_url": "https://github.com/martinpichler/data_stewardship_ex1"
+          }
+        ],
+        "metadata": [
+          {
+            "description": "Naming Conventions",
+            "language": "en",
+            "metadata_id": {
+              "metadata_id": "https://visualgit.readthedocs.io/en/latest/pages/naming_convention.html",
+              "metadata_id_type": "HTTP-URI"
+            }
+          },
+          {
+            "description": "No restrictions, access is public and open to everyone.",
+            "metadata_id": {
+              "metadata_id": "restrictions",
+              "metadata_id_type": "custom"
+            }
+          },
+          {
+            "description": "No restrictions, data and source code can be used by anyone.",
+            "metadata_id": {
+              "metadata_id": "third_party_usability",
+              "metadata_id_type": "custom"
+            }
+          }
+        ],
+        "technical_resource": [
+          {
+            "description": "The data can be downloaded either from Github directly (single files or zip) or can be downloaded with git.\r\nThe input data files are stored as .csv and .tsv files and need no additional software.&nbsp;\r\nThe produced data are .png images and an image viewer is needed to open them.\r\nThe source code of the experiment is contained within a jupyter notebook. A working python installation is needed to run it. The git repository contains a readme.md that describes how to run it and which dependencies the notebook has. Alternatively, docker can be used to run the experiment (also described in the readme.md).",
+            "technical_resource_id": {
+              "technical_resource_id": "software_tools",
+              "technical_resource_id_type": "custom"
+            }
+          },
+          {
+            "description": "All the data used and produced is based on non-restricted or proprietary data formats (e.g. .csv, .tsv, png, python, jupyter, git).\r\nThere is no domain-specific vocabulary to take in consideration.",
+            "technical_resource_id": {
+              "technical_resource_id": "interoperability_standards",
+              "technical_resource_id_type": "custom"
+            }
+          },
+          {
+            "description": "Standard vocabulary is used, no mapping required.",
+            "technical_resource_id": {
+              "technical_resource_id": "vocabulary_standards",
+              "technical_resource_id_type": "custom"
+            }
+          }
+        ],
+        "keyword": "generated",
+        "dataset_id": {
+          "dataset_id": "time_corr",
+          "dataset_id_type": "custom"
+        },
+        "data_quality_assurance": "The project only uses already available data and no new data will be generated in the future. The used data was checked for completeness and correctness.",
+        "preservation_statement": "Since the data is stored in a public Github repository, no additional cost has to be covered.",
+        "security_and_privacy": [
+          {
+            "title": "Data Security",
+            "text": "Data is stored in a git repository on Github and can only be modified by the owner or an administrator. If data is lost locally, the original data can be downloaded from the Github repository. No sensitive data is stored and thus the repository does not need to be addressed."
+          }
+        ]
+      }
+    ],
+    "cost": [
+      {
+        "title": "Costs for making your data FAIR",
+        "description": "Since the data is stored in a public Github repository, no additional cost has to be covered."
+      }
+    ],
+    "dm_staff": [
+      {
+        "name": "Martin Pichler",
+        "mbox": "mpichler.dev@gmail.com",
+        "staff_id": {
+          "staff_id": "https://orcid.org/0000-0001-5305-9063",
+          "staff_id_type": "HTTP-ORCID"
+        }
+      }
+    ],
+    "ethical_issues_description": "No ethical issues exist",
+    "ethical_issues_exist": "no"
+  }
+}
