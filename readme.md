@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/192808375.svg)](https://zenodo.org/badge/latestdoi/192808375)
+
 # DMP-Roadmap Parser
 DMP-Roadmap parser is a tool to create machine actionable DMPs from a *[dmp-roadmap](https://github.com/DMPRoadmap/roadmap)* instance. The tool was created for a university project and is not meant for use in production. The machine actionable DMPs are stored in .json format and follows the [DMP Common Standards WG](https://github.com/DMPRoadmap/roadmap) ontology for creating machine actionable DMPS.
 
