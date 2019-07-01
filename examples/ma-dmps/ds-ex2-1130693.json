@@ -1,0 +1,511 @@
+{
+  "dmp": {
+    "title": "Cryptocurrency Litecoin (LTC): Risk and Dependence Assessment - Detailed DMP",
+    "description": "Abstract::Litecoin is one of the so-called Top-15 Altcoins by market capitalisation. Altcoins have grown massively in importance in the cryptosector over the last 2 years and have pushed Bitcoin's share of the total market capitalisation below 35% at least in the short term.  In addition to a general review of the Altcoin Litecoin (functionality, special features, pros/cons, price development ...), the aim of this paper is in particular a risk and dependency assessment of Litecoin. They therefore calculate and interpret correlations with traditional assets/asset classes or assess dependencies within the cryptospace (e.g. with Bitcoin or by compiling a crypto index) taking into account changes over time and examine to what extent it makes sense to consider the systematic risk of Litecoin.;Explain the relation to the objectives of the project::The goal of this project is to identify the risk of LTC. Is there a systematic risk? Is it changing over time? Or are newer Methods like Conditional Value at Risk more appropriate for measuring risk?;Outline the data utility: to whom will it be useful::Other Researchers, who want to estimate the risk for LTC.;Outline the approach towards search keyword::Not implemented.",
+    "created": "2019-07-01 11:15:10.752212",
+    "modified": "2019-07-01 11:22:38.989658",
+    "dmp_id": {
+      "dmp_id": "39612",
+      "dmp_id_type": "HTTP-DOI"
+    },
+    "contact": {
+      "name": "Christoph Wimmer",
+      "mail": "christoph.wimmer@s.wu.ac.at",
+      "contact_id": {
+        "contact_id": "",
+        "contact_id_type": "HTTP-ORCID"
+      }
+    },
+    "project": {
+      "description": "State the purpose of the data collection/generation::Produced Data:\r\nThis Project produces aggregated dataset in CSV format (Filesize ~450 KB) that contains excess returns of assets and the riskfree rate, and a histogram of these in PNG format (Filesize ~100KB).&nbsp;;Refer to other national/funder/sectorial/departmental procedures for data management that you are using (if any)::No additional procedures are used."
+    },
+    "dataset": [
+      {
+        "title": "Assets",
+        "description": "Assets from YahooFinance (2019)",
+        "type": "Dataset",
+        "distribution": [
+          {
+            "title": "Origin",
+            "format": "csv",
+            "byte_size": 271360,
+            "data_access": "open"
+          },
+          {
+            "title": "Project",
+            "format": "csv",
+            "byte_size": 271360,
+            "host": {
+              "title": "github.com",
+              "supports_versioning": "yes",
+              "license": {
+                "license_ref": "https://opensource.org/licences/MIT",
+                "start_date": "2019-07-01 11:15:10.752212"
+              }
+            },
+            "data_access": "open",
+            "access_url": "https://github.com/Sn3llius/Cryptocurrency-Litecoin-LTC-Risk-and-Dependence-Assessment)"
+          }
+        ],
+        "metadata": [
+          {
+            "description": "Naming Conventions",
+            "language": "en",
+            "metadata_id": {
+              "metadata_id": "https://visualgit.readthedocs.io/en/latest/pages/naming_conventions.html",
+              "metadata_id_type": "HTTP-URI"
+            }
+          },
+          {
+            "description": "Metadata Creation",
+            "language": "en",
+            "metadata_id": {
+              "metadata_id": "documentation/metadata.xml",
+              "metadata_id_type": "custom"
+            }
+          },
+          {
+            "description": "no restrictions.",
+            "metadata_id": {
+              "metadata_id": "restrictions",
+              "metadata_id_type": "custom"
+            }
+          },
+          {
+            "description": "All data produced and used in this project are available by third parties or will be made\navailable after the end of the project.",
+            "metadata_id": {
+              "metadata_id": "third_party_usability",
+              "metadata_id_type": "custom"
+            }
+          }
+        ],
+        "technical_resource": [
+          {
+            "description": "The data will be made available online through the WWW service. Thus, in order to discover,\nor download the data only a common browser will be required from the user. The format\nof downloadable files will be (solely or additionally) in an open standard such as CSV, XLSX, R and PDF.\nTools to access these files will be freely available in the internet.",
+            "technical_resource_id": {
+              "technical_resource_id": "software_tools",
+              "technical_resource_id_type": "custom"
+            }
+          },
+          {
+            "description": "Datasets produced by the project will be interoperable allowing data exchange and reuse. The project will be well documented and unless otherwise specified openly accessible. The project will follow established European metadata vocabularies, standards and methodologies.",
+            "technical_resource_id": {
+              "technical_resource_id": "interoperability_standards",
+              "technical_resource_id_type": "custom"
+            }
+          },
+          {
+            "description": "Standard vocabulary will be used, no mapping required.",
+            "technical_resource_id": {
+              "technical_resource_id": "vocabulary_standards",
+              "technical_resource_id_type": "custom"
+            }
+          }
+        ],
+        "keyword": "re-used",
+        "dataset_id": {
+          "dataset_id": "Assets",
+          "dataset_id_type": "custom"
+        },
+        "data_quality_assurance": "Some aspects that are considered, are the following:\r\n\r\nmissing values\r\nwrong data type\r\nuseing right data (e.g. maturity of Treasury Bills)\r\nincomplete or erroneous results\r\n\r\nSuch validation checks, are allready done. So the results of this project are trustworthy.",
+        "preservation_statement": "A snapshot of all relevant project data will be stored in the research data repository Zenodo\nupon termination of the project. This dataset will receive a DOI and will be preserved for the\nforeseeable future. There will be no huge potential value of long term preservation.",
+        "security_and_privacy": [
+          {
+            "title": "Data Security",
+            "text": "All research data underpinning publications will be made available for verification and re-use unless there are justified reasons for keeping specific datasets confidential. The main elements when considering confidentiality of datasets are:\r\nProtection of intellectual property regarding new processes, products and technologies where the data could be used to derive sensitive information&nbsp;\r\nCommercial agreements as part of the procurements of components or materials that might foresee the confidentiality of data\r\nPersonal data that might have been collected in the project where sharing them is not allowed by the national and European legislation.\r\nAt the end of the project, a copy/snapshot of all significant data will be stored in the project's\nrepository at Zenodo. The infrastructure of Zenodo has been developed and is supported by\nCERN which guarantees long term data safety and availability."
+          }
+        ]
+      },
+      {
+        "title": "LTC",
+        "description": "ltc (2019)",
+        "type": "Dataset",
+        "distribution": [
+          {
+            "title": "Origin",
+            "format": "csv",
+            "access_url": "https://coinmetrics.io/",
+            "byte_size": 442368,
+            "data_access": "open"
+          },
+          {
+            "title": "Project",
+            "format": "csv",
+            "byte_size": 442368,
+            "host": {
+              "title": "github.com",
+              "supports_versioning": "yes",
+              "license": {
+                "license_ref": "https://opensource.org/licences/MIT",
+                "start_date": "2019-07-01 11:15:10.752212"
+              }
+            },
+            "data_access": "open",
+            "access_url": "https://github.com/Sn3llius/Cryptocurrency-Litecoin-LTC-Risk-and-Dependence-Assessment)"
+          }
+        ],
+        "metadata": [
+          {
+            "description": "Naming Conventions",
+            "language": "en",
+            "metadata_id": {
+              "metadata_id": "https://visualgit.readthedocs.io/en/latest/pages/naming_conventions.html",
+              "metadata_id_type": "HTTP-URI"
+            }
+          },
+          {
+            "description": "Metadata Creation",
+            "language": "en",
+            "metadata_id": {
+              "metadata_id": "documentation/metadata.xml",
+              "metadata_id_type": "custom"
+            }
+          },
+          {
+            "description": "no restrictions.",
+            "metadata_id": {
+              "metadata_id": "restrictions",
+              "metadata_id_type": "custom"
+            }
+          },
+          {
+            "description": "All data produced and used in this project are available by third parties or will be made\navailable after the end of the project.",
+            "metadata_id": {
+              "metadata_id": "third_party_usability",
+              "metadata_id_type": "custom"
+            }
+          }
+        ],
+        "technical_resource": [
+          {
+            "description": "The data will be made available online through the WWW service. Thus, in order to discover,\nor download the data only a common browser will be required from the user. The format\nof downloadable files will be (solely or additionally) in an open standard such as CSV, XLSX, R and PDF.\nTools to access these files will be freely available in the internet.",
+            "technical_resource_id": {
+              "technical_resource_id": "software_tools",
+              "technical_resource_id_type": "custom"
+            }
+          },
+          {
+            "description": "Datasets produced by the project will be interoperable allowing data exchange and reuse. The project will be well documented and unless otherwise specified openly accessible. The project will follow established European metadata vocabularies, standards and methodologies.",
+            "technical_resource_id": {
+              "technical_resource_id": "interoperability_standards",
+              "technical_resource_id_type": "custom"
+            }
+          },
+          {
+            "description": "Standard vocabulary will be used, no mapping required.",
+            "technical_resource_id": {
+              "technical_resource_id": "vocabulary_standards",
+              "technical_resource_id_type": "custom"
+            }
+          }
+        ],
+        "keyword": "re-used",
+        "dataset_id": {
+          "dataset_id": "https://coinmetrics.io/",
+          "dataset_id_type": "HTTP-URI"
+        },
+        "data_quality_assurance": "Some aspects that are considered, are the following:\r\n\r\nmissing values\r\nwrong data type\r\nuseing right data (e.g. maturity of Treasury Bills)\r\nincomplete or erroneous results\r\n\r\nSuch validation checks, are allready done. So the results of this project are trustworthy.",
+        "preservation_statement": "A snapshot of all relevant project data will be stored in the research data repository Zenodo\nupon termination of the project. This dataset will receive a DOI and will be preserved for the\nforeseeable future. There will be no huge potential value of long term preservation.",
+        "security_and_privacy": [
+          {
+            "title": "Data Security",
+            "text": "All research data underpinning publications will be made available for verification and re-use unless there are justified reasons for keeping specific datasets confidential. The main elements when considering confidentiality of datasets are:\r\nProtection of intellectual property regarding new processes, products and technologies where the data could be used to derive sensitive information&nbsp;\r\nCommercial agreements as part of the procurements of components or materials that might foresee the confidentiality of data\r\nPersonal data that might have been collected in the project where sharing them is not allowed by the national and European legislation.\r\nAt the end of the project, a copy/snapshot of all significant data will be stored in the project's\nrepository at Zenodo. The infrastructure of Zenodo has been developed and is supported by\nCERN which guarantees long term data safety and availability."
+          }
+        ]
+      },
+      {
+        "title": "RF",
+        "description": "dayli riskfree rate (FamaFrench) (2019)",
+        "type": "Dataset",
+        "distribution": [
+          {
+            "title": "Origin",
+            "format": "csv",
+            "access_url": "https://mba.tuck.dartmouth.edu/pages/faculty/ken.french/data_library.html",
+            "byte_size": 40960,
+            "data_access": "open"
+          },
+          {
+            "title": "Project",
+            "format": "csv",
+            "byte_size": 40960,
+            "host": {
+              "title": "github.com",
+              "supports_versioning": "yes",
+              "license": {
+                "license_ref": "https://opensource.org/licences/MIT",
+                "start_date": "2019-07-01 11:15:10.752212"
+              }
+            },
+            "data_access": "open",
+            "access_url": "https://github.com/Sn3llius/Cryptocurrency-Litecoin-LTC-Risk-and-Dependence-Assessment)"
+          }
+        ],
+        "metadata": [
+          {
+            "description": "Naming Conventions",
+            "language": "en",
+            "metadata_id": {
+              "metadata_id": "https://visualgit.readthedocs.io/en/latest/pages/naming_conventions.html",
+              "metadata_id_type": "HTTP-URI"
+            }
+          },
+          {
+            "description": "Metadata Creation",
+            "language": "en",
+            "metadata_id": {
+              "metadata_id": "documentation/metadata.xml",
+              "metadata_id_type": "custom"
+            }
+          },
+          {
+            "description": "no restrictions.",
+            "metadata_id": {
+              "metadata_id": "restrictions",
+              "metadata_id_type": "custom"
+            }
+          },
+          {
+            "description": "All data produced and used in this project are available by third parties or will be made\navailable after the end of the project.",
+            "metadata_id": {
+              "metadata_id": "third_party_usability",
+              "metadata_id_type": "custom"
+            }
+          }
+        ],
+        "technical_resource": [
+          {
+            "description": "The data will be made available online through the WWW service. Thus, in order to discover,\nor download the data only a common browser will be required from the user. The format\nof downloadable files will be (solely or additionally) in an open standard such as CSV, XLSX, R and PDF.\nTools to access these files will be freely available in the internet.",
+            "technical_resource_id": {
+              "technical_resource_id": "software_tools",
+              "technical_resource_id_type": "custom"
+            }
+          },
+          {
+            "description": "Datasets produced by the project will be interoperable allowing data exchange and reuse. The project will be well documented and unless otherwise specified openly accessible. The project will follow established European metadata vocabularies, standards and methodologies.",
+            "technical_resource_id": {
+              "technical_resource_id": "interoperability_standards",
+              "technical_resource_id_type": "custom"
+            }
+          },
+          {
+            "description": "Standard vocabulary will be used, no mapping required.",
+            "technical_resource_id": {
+              "technical_resource_id": "vocabulary_standards",
+              "technical_resource_id_type": "custom"
+            }
+          }
+        ],
+        "keyword": "re-used",
+        "dataset_id": {
+          "dataset_id": "https://mba.tuck.dartmouth.edu/pages/faculty/ken.french/data_library.html",
+          "dataset_id_type": "HTTP-URI"
+        },
+        "data_quality_assurance": "Some aspects that are considered, are the following:\r\n\r\nmissing values\r\nwrong data type\r\nuseing right data (e.g. maturity of Treasury Bills)\r\nincomplete or erroneous results\r\n\r\nSuch validation checks, are allready done. So the results of this project are trustworthy.",
+        "preservation_statement": "A snapshot of all relevant project data will be stored in the research data repository Zenodo\nupon termination of the project. This dataset will receive a DOI and will be preserved for the\nforeseeable future. There will be no huge potential value of long term preservation.",
+        "security_and_privacy": [
+          {
+            "title": "Data Security",
+            "text": "All research data underpinning publications will be made available for verification and re-use unless there are justified reasons for keeping specific datasets confidential. The main elements when considering confidentiality of datasets are:\r\nProtection of intellectual property regarding new processes, products and technologies where the data could be used to derive sensitive information&nbsp;\r\nCommercial agreements as part of the procurements of components or materials that might foresee the confidentiality of data\r\nPersonal data that might have been collected in the project where sharing them is not allowed by the national and European legislation.\r\nAt the end of the project, a copy/snapshot of all significant data will be stored in the project's\nrepository at Zenodo. The infrastructure of Zenodo has been developed and is supported by\nCERN which guarantees long term data safety and availability."
+          }
+        ]
+      },
+      {
+        "title": "excess_return",
+        "description": "excess returns of all assets",
+        "type": "Dataset",
+        "distribution": [
+          {
+            "title": "Project",
+            "byte_size": 460800,
+            "host": {
+              "title": "github.com",
+              "supports_versioning": "yes",
+              "license": {
+                "license_ref": "https://opensource.org/licences/MIT",
+                "start_date": "2019-07-01 11:15:10.752212"
+              }
+            },
+            "data_access": "open",
+            "access_url": "https://github.com/Sn3llius/Cryptocurrency-Litecoin-LTC-Risk-and-Dependence-Assessment)"
+          }
+        ],
+        "metadata": [
+          {
+            "description": "Naming Conventions",
+            "language": "en",
+            "metadata_id": {
+              "metadata_id": "https://visualgit.readthedocs.io/en/latest/pages/naming_conventions.html",
+              "metadata_id_type": "HTTP-URI"
+            }
+          },
+          {
+            "description": "Metadata Creation",
+            "language": "en",
+            "metadata_id": {
+              "metadata_id": "documentation/metadata.xml",
+              "metadata_id_type": "custom"
+            }
+          },
+          {
+            "description": "no restrictions.",
+            "metadata_id": {
+              "metadata_id": "restrictions",
+              "metadata_id_type": "custom"
+            }
+          },
+          {
+            "description": "All data produced and used in this project are available by third parties or will be made\navailable after the end of the project.",
+            "metadata_id": {
+              "metadata_id": "third_party_usability",
+              "metadata_id_type": "custom"
+            }
+          }
+        ],
+        "technical_resource": [
+          {
+            "description": "The data will be made available online through the WWW service. Thus, in order to discover,\nor download the data only a common browser will be required from the user. The format\nof downloadable files will be (solely or additionally) in an open standard such as CSV, XLSX, R and PDF.\nTools to access these files will be freely available in the internet.",
+            "technical_resource_id": {
+              "technical_resource_id": "software_tools",
+              "technical_resource_id_type": "custom"
+            }
+          },
+          {
+            "description": "Datasets produced by the project will be interoperable allowing data exchange and reuse. The project will be well documented and unless otherwise specified openly accessible. The project will follow established European metadata vocabularies, standards and methodologies.",
+            "technical_resource_id": {
+              "technical_resource_id": "interoperability_standards",
+              "technical_resource_id_type": "custom"
+            }
+          },
+          {
+            "description": "Standard vocabulary will be used, no mapping required.",
+            "technical_resource_id": {
+              "technical_resource_id": "vocabulary_standards",
+              "technical_resource_id_type": "custom"
+            }
+          }
+        ],
+        "keyword": "generated",
+        "dataset_id": {
+          "dataset_id": "excess_return",
+          "dataset_id_type": "custom"
+        },
+        "data_quality_assurance": "Some aspects that are considered, are the following:\r\n\r\nmissing values\r\nwrong data type\r\nuseing right data (e.g. maturity of Treasury Bills)\r\nincomplete or erroneous results\r\n\r\nSuch validation checks, are allready done. So the results of this project are trustworthy.",
+        "preservation_statement": "A snapshot of all relevant project data will be stored in the research data repository Zenodo\nupon termination of the project. This dataset will receive a DOI and will be preserved for the\nforeseeable future. There will be no huge potential value of long term preservation.",
+        "security_and_privacy": [
+          {
+            "title": "Data Security",
+            "text": "All research data underpinning publications will be made available for verification and re-use unless there are justified reasons for keeping specific datasets confidential. The main elements when considering confidentiality of datasets are:\r\nProtection of intellectual property regarding new processes, products and technologies where the data could be used to derive sensitive information&nbsp;\r\nCommercial agreements as part of the procurements of components or materials that might foresee the confidentiality of data\r\nPersonal data that might have been collected in the project where sharing them is not allowed by the national and European legislation.\r\nAt the end of the project, a copy/snapshot of all significant data will be stored in the project's\nrepository at Zenodo. The infrastructure of Zenodo has been developed and is supported by\nCERN which guarantees long term data safety and availability."
+          }
+        ]
+      },
+      {
+        "title": "Histogram",
+        "description": "Histogram of all excess returns",
+        "type": "Image",
+        "distribution": [
+          {
+            "title": "Project",
+            "byte_size": 102400,
+            "host": {
+              "title": "github.com",
+              "supports_versioning": "yes",
+              "license": {
+                "license_ref": "https://opensource.org/licences/MIT",
+                "start_date": "2019-07-01 11:15:10.752212"
+              }
+            },
+            "data_access": "open",
+            "access_url": "https://github.com/Sn3llius/Cryptocurrency-Litecoin-LTC-Risk-and-Dependence-Assessment)"
+          }
+        ],
+        "metadata": [
+          {
+            "description": "Naming Conventions",
+            "language": "en",
+            "metadata_id": {
+              "metadata_id": "https://visualgit.readthedocs.io/en/latest/pages/naming_conventions.html",
+              "metadata_id_type": "HTTP-URI"
+            }
+          },
+          {
+            "description": "Metadata Creation",
+            "language": "en",
+            "metadata_id": {
+              "metadata_id": "documentation/metadata.xml",
+              "metadata_id_type": "custom"
+            }
+          },
+          {
+            "description": "no restrictions.",
+            "metadata_id": {
+              "metadata_id": "restrictions",
+              "metadata_id_type": "custom"
+            }
+          },
+          {
+            "description": "All data produced and used in this project are available by third parties or will be made\navailable after the end of the project.",
+            "metadata_id": {
+              "metadata_id": "third_party_usability",
+              "metadata_id_type": "custom"
+            }
+          }
+        ],
+        "technical_resource": [
+          {
+            "description": "The data will be made available online through the WWW service. Thus, in order to discover,\nor download the data only a common browser will be required from the user. The format\nof downloadable files will be (solely or additionally) in an open standard such as CSV, XLSX, R and PDF.\nTools to access these files will be freely available in the internet.",
+            "technical_resource_id": {
+              "technical_resource_id": "software_tools",
+              "technical_resource_id_type": "custom"
+            }
+          },
+          {
+            "description": "Datasets produced by the project will be interoperable allowing data exchange and reuse. The project will be well documented and unless otherwise specified openly accessible. The project will follow established European metadata vocabularies, standards and methodologies.",
+            "technical_resource_id": {
+              "technical_resource_id": "interoperability_standards",
+              "technical_resource_id_type": "custom"
+            }
+          },
+          {
+            "description": "Standard vocabulary will be used, no mapping required.",
+            "technical_resource_id": {
+              "technical_resource_id": "vocabulary_standards",
+              "technical_resource_id_type": "custom"
+            }
+          }
+        ],
+        "keyword": "generated",
+        "dataset_id": {
+          "dataset_id": "Histogram",
+          "dataset_id_type": "custom"
+        },
+        "data_quality_assurance": "Some aspects that are considered, are the following:\r\n\r\nmissing values\r\nwrong data type\r\nuseing right data (e.g. maturity of Treasury Bills)\r\nincomplete or erroneous results\r\n\r\nSuch validation checks, are allready done. So the results of this project are trustworthy.",
+        "preservation_statement": "A snapshot of all relevant project data will be stored in the research data repository Zenodo\nupon termination of the project. This dataset will receive a DOI and will be preserved for the\nforeseeable future. There will be no huge potential value of long term preservation.",
+        "security_and_privacy": [
+          {
+            "title": "Data Security",
+            "text": "All research data underpinning publications will be made available for verification and re-use unless there are justified reasons for keeping specific datasets confidential. The main elements when considering confidentiality of datasets are:\r\nProtection of intellectual property regarding new processes, products and technologies where the data could be used to derive sensitive information&nbsp;\r\nCommercial agreements as part of the procurements of components or materials that might foresee the confidentiality of data\r\nPersonal data that might have been collected in the project where sharing them is not allowed by the national and European legislation.\r\nAt the end of the project, a copy/snapshot of all significant data will be stored in the project's\nrepository at Zenodo. The infrastructure of Zenodo has been developed and is supported by\nCERN which guarantees long term data safety and availability."
+          }
+        ]
+      }
+    ],
+    "cost": [
+      {
+        "title": "Costs for making your data FAIR",
+        "description": "Since the data is stored in a public Github repository, no additional cost has to be coverd."
+      }
+    ],
+    "dm_staff": [
+      {
+        "name": "Christoph Wimmer\r",
+        "mbox": "christoph.wimmer@s.wu.ac",
+        "staff_id": {
+          "staff_id": "https://orcid.org/0000-0001-5430-1543",
+          "staff_id_type": "HTTP-ORCID"
+        }
+      }
+    ],
+    "ethical_issues_description": "No ethical issues exist.",
+    "ethical_issues_exist": "no"
+  }
+}
